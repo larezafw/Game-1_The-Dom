@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6155759410232798773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6155759410232798779}
+  - component: {fileID: 6155759410232798778}
+  m_Layer: 0
+  m_Name: AudioHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6155759410232798779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6155759410232798773}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.24449465, y: 1.219977, z: -0.024714269}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6155759410232798778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6155759410232798773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77672fe9f35cc7e44988ac09336c099a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound:
+  - name: CastSkill
+    clips: {fileID: 8300000, guid: 2af8407f57561ea48a25b532619cb181, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    sources: {fileID: 0}
+  - name: SkillO
+    clips: {fileID: 8300000, guid: 1aaf1e16fd976e145b224d2a498714a4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    sources: {fileID: 0}
+  - name: SkillK
+    clips: {fileID: 8300000, guid: ad66d2418d12d984899f7776e337a5fb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    sources: {fileID: 0}
+  - name: SkillL
+    clips: {fileID: 8300000, guid: 998553a5294a2f341a4eb0ef56bd79d7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    sources: {fileID: 0}
+  - name: SkillI
+    clips: {fileID: 8300000, guid: 7dbb9a1e87366af43b89b490a1245c9a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    sources: {fileID: 0}
+  - name: SkillJ
+    clips: {fileID: 8300000, guid: 9140659bd61d3164a8a7d98f645c0510, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    sources: {fileID: 0}
+  - name: SkillM
+    clips: {fileID: 8300000, guid: 50891e37fd202a649a55953751d65591, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    sources: {fileID: 0}
+  - name: Lose
+    clips: {fileID: 8300000, guid: cc610739840358446b693adb76a1e8cb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    sources: {fileID: 0}
+  - name: Win
+    clips: {fileID: 8300000, guid: df64f7408a4f8a1438d65e1e98c1743f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    sources: {fileID: 0}
+  - name: BattleTheme
+    clips: {fileID: 8300000, guid: 6f47dbaf1bcff9143aae0b4e9377b3a7, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    sources: {fileID: 0}
+  - name: CutsceneTheme
+    clips: {fileID: 8300000, guid: 25a871eb1ff408446b8f40bee7d6f4d2, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    sources: {fileID: 0}
+  - name: MissionAppear
+    clips: {fileID: 8300000, guid: a8395fb51b27adb47972b6be89159168, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    sources: {fileID: 0}
+  - name: MissionClear
+    clips: {fileID: 8300000, guid: 77e08755902d0a7419117ad6782a48ba, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    sources: {fileID: 0}
+  - name: ButtonClick
+    clips: {fileID: 8300000, guid: b73c8a7c995601043a171a7d520af36f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    sources: {fileID: 0}
+  - name: MainMenuTheme
+    clips: {fileID: 8300000, guid: 1fba762bd621b1d488c2ca5255d6f27b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    sources: {fileID: 0}
+  - name: BossTheme
+    clips: {fileID: 8300000, guid: 1fba762bd621b1d488c2ca5255d6f27b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    sources: {fileID: 0}
